@@ -12,5 +12,11 @@ use App\Http\Controllers\pengawasController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Dashboard
 Route::get('/', [pengawasController::class, 'Dashboard']);
+// Penyedia
 Route::get('/penyedia', [pengawasController::class, 'penyedia']);
+// Product
+Route::get('/product', [pengawasController::class, 'product']);
+// Satdik
+Route::get('/satdik', [pengawasController::class, 'satdik']);

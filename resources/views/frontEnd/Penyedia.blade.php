@@ -6,6 +6,45 @@
       <div class="row justify-content-center">
         <div class="col col-lg col-sm">
             <table id="example" class="table table-striped" style="width:100%">
+                <!-- Example single danger button -->
+              <div class="row justify-content-center mb-3">
+                  <div class="col col-lg col-sm">
+                      <div class="dropdown">
+                          <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Semua Status
+                          </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item text-center" href="#">Tertunda</a></li>
+                        <li><a class="dropdown-item  text-center" href="#">Aktif</a></li>
+                        <li><a class="dropdown-item  text-center" href="#">Di Tangguhkan</a></li>
+                        <li><a class="dropdown-item  text-center" href="#">Di Tolak</a></li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="col col-lg col-s">
+                         <div class="dropdown">
+                          <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Semua Tipe Bisnis
+                          </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item text-center" href="#">Individu/Perorangan</a></li>
+                        <li><a class="dropdown-item  text-center" href="#">Non UMKM</a></li>
+                        <li><a class="dropdown-item  text-center" href="#">Koprasi</a></li>
+                        <li><a class="dropdown-item  text-center" href="#">Badan Usaha (PT/CV)</a></li>
+                    </ul>
+                    </div>
+                    </div>
+                        <div class="col col-lg col-sm ">
+                            <div class="dropdown">
+                          <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Semua Aktifitas
+                          </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item text-center" href="#">Offline</a></li>
+                        <li><a class="dropdown-item  text-center" href="#">Online</a></li>
+                    </ul>
+                    </div>
+                </div>
                 <thead>
                     <tr>
                         <th>Name</th>

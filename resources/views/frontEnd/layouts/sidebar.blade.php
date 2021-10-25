@@ -37,8 +37,12 @@
               <a class="nav-link {{ request()->is('penyedia') ? 'active' : '' }}" href="penyedia">
                 <span class="nav-icon"></span>Penyedia</a>
             </li>
-          <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon"></span>Produk</a></li>
-          <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon"></span>Satdik</a></li>
+          <li class="nav-item"><a class="nav-link {{ request()->is('product') ? 'active' : '' }}" href="product">
+            <span class="nav-icon"></span>Produk</a>
+        </li>
+          <li class="nav-item"><a class="nav-link {{ request()->is('satdik') ? 'active' : '' }}" href="satdik">
+            <span class="nav-icon"></span>Satdik</a>
+        </li>
           {{-- <li class="nav-item"><a class="nav-link disabled" href="buttons/dropdowns.html" aria-disabled="true"><span class="nav-icon"></span>Buku Teks</a></li>
           <li class="nav-item"><a class="nav-link disabled" href="buttons/dropdowns.html" aria-disabled="true"><span class="nav-icon"></span>Buku Non Teks</a></li> --}}
         </ul>
