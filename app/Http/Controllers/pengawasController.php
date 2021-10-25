@@ -18,4 +18,15 @@ class pengawasController extends Controller
         return view('frontEnd.Penyedia', $data);
     }
 
+    public function product()
+    {
+        $data['title'] = 'Product';
+        return view('frontEnd.Product', $data);
+    }
+
+    public function satdik()
+    {
+        $data['title'] = 'Satdik';
+        return view('frontEnd.Satdik', $data);
+    }
 }

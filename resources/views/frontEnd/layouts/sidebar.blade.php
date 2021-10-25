@@ -26,10 +26,13 @@
         </ul>
       </li> --}}
 
-      <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+      <li class="nav-group">
+          <a class="nav-link nav-group-toggle" href="#">
           <svg class="nav-icon">
             <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-cursor"></use>
-          </svg> Master</a>
+          </svg>
+          Master
+        </a>
         <ul class="nav-group-items">
           {{-- <li class="nav-item"><a class="nav-link disabled" href="buttons/buttons.html" aria-disabled="true"><span class="nav-icon"></span> Banner</a></li>
           <li class="nav-item"><a class="nav-link disabled" href="buttons/button-group.html" aria-disabled="true"><span class="nav-icon"></span> Kategori</a></li> --}}
@@ -37,8 +40,20 @@
               <a class="nav-link {{ request()->is('penyedia') ? 'active' : '' }}" href="penyedia">
                 <span class="nav-icon"></span>Penyedia</a>
             </li>
-          <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon"></span>Produk</a></li>
-          <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon"></span>Satdik</a></li>
+          <li class="nav-item">
+              <a class="nav-link {{ request()->is('product') ? 'active' : '' }}" href="product">
+            <span class="nav-icon">
+                </span>
+                Produk
+            </a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link {{ request()->is('satdik') ? 'active' : '' }}" href="satdik">
+            <span class="nav-icon">
+                </span>
+                Satdik
+            </a>
+        </li>
           {{-- <li class="nav-item"><a class="nav-link disabled" href="buttons/dropdowns.html" aria-disabled="true"><span class="nav-icon"></span>Buku Teks</a></li>
           <li class="nav-item"><a class="nav-link disabled" href="buttons/dropdowns.html" aria-disabled="true"><span class="nav-icon"></span>Buku Non Teks</a></li> --}}
         </ul>
@@ -74,5 +89,4 @@
                         </svg> Chats<span class="badge badge-sm bg-info ms-auto">NEW</span></a>
                     </li> --}}
                 </ul>
-    <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
   </div>
