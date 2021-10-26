@@ -1,15 +1,20 @@
-@extends('frontEnd.layouts.main')
-
-@section('container')
-<div class="body flex-grow-1 px-3">
-    <div class="container-lg">
-      <div class="row justify-content-center">
-        <div class="col col-lg col-sm">
-            <table id="example" class="table table-striped" style="width:100%">
+<div class="row pb-3">
+    <div class="col">
+        <div class="card">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Kategori
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+          <table id="example" class="table table-striped" style="width:100%">
                 <!-- Example single danger button -->
               <div class="row justify-content-center mb-3">
                   <div class="col col-lg col-sm">
-                      <div class="dropdown">
+                      {{-- <div class="dropdown">
                           <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                           Semua Status
                           </button>
@@ -44,7 +49,7 @@
                             <li><a class="dropdown-item  text-center" href="#"><i class="bi bi-record-circle btn-danger"></i>&nbsp;Offline</a></li>
                     </ul>
                     </div>
-                </div>
+                </div> --}}
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -90,8 +95,9 @@
                 </tbody>
             </table>
         </div>
-      </div>
-      <!-- /.row-->
     </div>
   </div>
-@endsection
+</div>
+        </div>
+    </div>
+</div>

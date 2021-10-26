@@ -86,18 +86,6 @@
                         </td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <th>Nama</th>
-                        <th>harga</th>
-                        <th>Pajak</th>
-                        <th>Stok</th>
-                        <th>Kategori</th>
-                        <th>Penyedia</th>
-                        <th>Status</th>
-                        <th>Aksi</th>
-                    </tr>
-                </tfoot>
             </table>
         </div>
       </div>

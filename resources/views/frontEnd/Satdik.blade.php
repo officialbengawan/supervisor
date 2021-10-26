@@ -25,8 +25,8 @@
                           Semua Aktifitas
                           </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item text-center" href="#">Online</a></li>
-                        <li><a class="dropdown-item  text-center" href="#">Offline</a></li>
+                        <li><a class="dropdown-item text-center" href="#"><i class="bi bi-vinyl-fill btn-success"></i>&nbsp;Online</a></li>
+                        <li><a class="dropdown-item  text-center" href="#"><i class="bi bi-record-circle btn-danger"></i>&nbsp;Offline</a></li>
                     </ul>
                     </div>
                     </div>
@@ -76,8 +76,8 @@
                           </p>
                         </td>
                         <td>
-                           <b  class="badge bg-success text-wrap" style="width: 6rem;">Online</b>
-                            <b  class="badge bg-secondary text-wrap" style="width: 6rem;">Offline</b>
+                           <b id="" class="badge bg-success text-wrap " style="width: 6rem;"><i class="bi bi-vinyl-fill"></i>&nbsp; Online</b>
+                            <b id="" class="badge bg-secondary text-wrap" style="width: 6rem;"><i class="bi bi-record-circle"></i>&nbsp;Offline</b>
                         </td>
                         <td>
                             <p id="">
@@ -89,19 +89,6 @@
                         </td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <tr>
-                       <th>Nama</th>
-                        <th>Username</th>
-                        <th>Role</th>
-                        <th>Tipe</th>
-                        <th>Jabatan</th>
-                        <th>Sekolah</th>
-                        <th>Aktivitas</th>
-                        <th>Status</th>
-                        <th>Aksi</th>
-                    </tr>
-                </tfoot>
             </table>
         </div>
       </div>
