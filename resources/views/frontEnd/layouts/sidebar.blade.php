@@ -43,6 +43,34 @@
         </ul>
       </li> --}}
 
+      {{-- <li class="nav-group">
+          <a class="nav-link nav-group-toggle">
+          <svg class="nav-icon">
+            <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-puzzle">
+            </use>
+          </svg>
+          Mitra
+        </a> --}}
+
+        {{-- <ul class="nav-group-items">
+          <li class="nav-item">
+              <a class="nav-link {{ request()->is('pembayaran') ? 'active' : '' }}" href="pembayaran">
+            <span class="nav-icon">
+              </span>
+            Pembayaran
+        </a>
+        </li> --}}
+
+        {{-- <li class="nav-item">
+              <a class="nav-link {{ request()->is('pengiriman') ? 'active' : '' }}" href="pengiriman">
+            <span class="nav-icon">
+              </span>
+            Pengiriman
+        </a>
+        </li>
+        </ul>
+      </li> --}}
+
       <li class="nav-group">
           <a class="nav-link nav-group-toggle" href="#">
           <svg class="nav-icon">

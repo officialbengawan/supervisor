@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class pengawasController extends Controller
 {
+    public function login()
+    {
+        $data['title'] = 'Login';
+        return view('frontEnd.auth.login', $data);
+    }
+
     public function Dashboard()
     {
         $data['title'] = 'Dashboard Pengawas';
@@ -88,5 +94,11 @@ class pengawasController extends Controller
     {
         $data['title'] = 'Chats';
         return view('frontEnd.chats', $data);
+    }
+
+    public function message()
+    {
+        $data['title'] = 'Message';
+        return view('frontEnd.message', $data);
     }
 }

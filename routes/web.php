@@ -12,6 +12,8 @@ use App\Http\Controllers\pengawasController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// login
+Route::get('/login', [pengawasController::class, 'login']);
 // Dashboard
 Route::get('/', [pengawasController::class, 'Dashboard']);
 // user management
@@ -38,3 +40,5 @@ Route::get('/order_list', [pengawasController::class, 'order_list']);
 Route::get('/activity_history', [pengawasController::class, 'activity_history']);
 // chats
 Route::get('/chats', [pengawasController::class, 'chats']);
+// login
+Route::get('/message', [pengawasController::class, 'message']);

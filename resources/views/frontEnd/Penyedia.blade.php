@@ -3,7 +3,7 @@
 @section('container')
 <div class="body flex-grow-1 px-3">
     <div class="container-lg">
-      <div class="row justify-content-center">
+        <div class="row justify-content-center">
         <div class="col col-lg col-sm">
             <table id="example" class="table table-striped" style="width:100%">
                 <!-- Example single danger button -->
@@ -12,7 +12,7 @@
                       <div class="dropdown">
                           <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                           Semua Status
-                          </button>
+                        </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                           <li><a class="dropdown-item text-center" href="#">Tertunda</a></li>
                         <li><a class="dropdown-item  text-center" href="#">Aktif</a></li>
