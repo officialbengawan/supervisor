@@ -30,7 +30,7 @@
         <div class="text-medium-emphasis small text-uppercase fw-semibold">Pernah Login</div>
         <div style="color: blue;" class="fs-6 fw-bolder py-3">1,123</div>
         <div class="c-chart-wrapper mx-auto" style="height:40px;width:80px">
-          <i style="font-size: 3.5rem; color:blue;" class="bi bi-file-person-fill "></i>
+          <i style="font-size: 3.5rem; color:blue;" class="bi bi-box-arrow-in-right "></i>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
         <div class="text-medium-emphasis small text-uppercase fw-semibold">Transaksi</div>
         <div style="color:#6CFF00;" class="fs-6 fw-bolder py-3">1,123</div>
         <div class="c-chart-wrapper mx-auto" style="height:40px;width:80px">
-          <i style="font-size: 3.5rem; color:#6CFF00;" class="bi bi-file-person-fill"></i>
+          <i style="font-size: 3.5rem; color:#6CFF00;" class="bi bi-currency-exchange"></i>
         </div>
       </div>
     </div>
@@ -54,7 +54,7 @@
         <div class="text-medium-emphasis small text-uppercase fw-semibold">Aktif</div>
         <div class="fs-6 fw-bolder py-3 text-success">1,123</div>
         <div class="c-chart-wrapper mx-auto" style="height:40px;width:80px">
-          <i style="font-size: 3.5rem;" class="bi bi-file-person-fill text-success"></i>
+          <i style="font-size: 3.5rem;" class="bi bi-person-check-fill text-success"></i>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@
         <div class="text-medium-emphasis small text-uppercase fw-semibold">DiTangguhkan</div>
         <div class="fs-6 fw-bolder py-3 text-danger">1,123</div>
         <div class="c-chart-wrapper mx-auto" style="height:40px;width:80px">
-          <i style="font-size: 3.5rem;" class="bi bi-file-person-fill text-danger"></i>
+          <i style="font-size: 3.5rem;" class="bi bi-person-x-fill text-danger"></i>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@
         <div class="text-medium-emphasis small text-uppercase fw-semibold">Online</div>
         <div style="color: #1FFF00" class="fs-6 fw-bolder py-3">1,123</div>
         <div class="c-chart-wrapper mx-auto" style="height:40px;width:80px">
-          <i style="font-size: 3.5rem; color:#1FFF00" class="bi bi-file-person-fill "></i>
+          <i style="font-size: 3.5rem; color:#1FFF00" class="bi bi-person-circle "></i>
         </div>
       </div>
     </div>

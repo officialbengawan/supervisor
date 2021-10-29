@@ -15,25 +15,25 @@
         {{-- // --}}
       <li class="nav-title">Components</li>
 
-      {{-- <li class="nav-group">
+      <li class="nav-group">
           <a class="nav-link nav-group-toggle">
           <svg class="nav-icon">
             <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-puzzle">
             </use>
           </svg>
           Akses
-        </a> --}}
+        </a>
 
-        {{-- <ul class="nav-group-items">
+        <ul class="nav-group-items">
           <li class="nav-item">
               <a class="nav-link {{ request()->is('user_management') ? 'active' : '' }}" href="user_management">
             <span class="nav-icon">
               </span>
              User Managements
         </a>
-        </li> --}}
+        </li>
 
-          {{-- <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link {{ request()->is('role_management') ? 'active' : '' }}" href="role_management">
             <span class="nav-icon">
               </span>
@@ -41,27 +41,27 @@
         </a>
         </li>
         </ul>
-      </li> --}}
+      </li>
 
-      {{-- <li class="nav-group">
+      <li class="nav-group">
           <a class="nav-link nav-group-toggle">
           <svg class="nav-icon">
             <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-puzzle">
             </use>
           </svg>
           Mitra
-        </a> --}}
+        </a>
 
-        {{-- <ul class="nav-group-items">
+        <ul class="nav-group-items">
           <li class="nav-item">
               <a class="nav-link {{ request()->is('pembayaran') ? 'active' : '' }}" href="pembayaran">
             <span class="nav-icon">
               </span>
             Pembayaran
         </a>
-        </li> --}}
+        </li>
 
-        {{-- <li class="nav-item">
+         <li class="nav-item">
               <a class="nav-link {{ request()->is('pengiriman') ? 'active' : '' }}" href="pengiriman">
             <span class="nav-icon">
               </span>
@@ -69,7 +69,7 @@
         </a>
         </li>
         </ul>
-      </li> --}}
+      </li>
 
       <li class="nav-group">
           <a class="nav-link nav-group-toggle" href="#">
@@ -79,21 +79,21 @@
           Master
         </a>
         <ul class="nav-group-items">
-          {{-- <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link {{ request()->is('banner') ? 'active' : '' }}" href="banner">
                 <span class="nav-icon">
                     </span>
                      Banner
                     </a>
-                </li> --}}
+                </li>
 
-          {{-- <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link {{ request()->is('category') ? 'active' : '' }}" href="category>
             <span class="nav-icon">
               </span>
             Kategori
         </a>
-        </li> --}}
+        </li>
 
           <li class="nav-item">
               <a class="nav-link {{ request()->is('provider') ? 'active' : '' }}" href="provider">
@@ -116,54 +116,54 @@
             </a>
         </li>
 
-          {{-- <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link {{ request()->is('book_teks') ? 'active' : '' }}" href="book_teks">
             <span class="nav-icon">
                 </span>
             Buku Teks
         </a>
-        </li> --}}
+        </li>
 
-          {{-- <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link {{ request()->is('book_non_teks') ? 'active' : '' }}" href="book_non_teks">
             <span class="nav-icon">
                 </span>
             Buku Non Teks
         </a>
-        </li> --}}
+        </li>
 
         </ul>
       </li>
 
-      {{-- <li class="nav-item">
+      <li class="nav-item">
           <a class="nav-link {{ request()->is('negotiation') ? 'active' : '' }}" href="negotiation">
               <svg class="nav-icon">
                   <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-chart-pie"></use>
                 </svg>
                 Negosiasi
             </a>
-        </li> --}}
+        </li>
 
-        {{-- <li class="nav-item">
+        <li class="nav-item">
             <a class="nav-link {{ request()->is('order_list') ? 'active' : '' }}" href="order_list">
                 <svg class="nav-icon">
                     <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-notes"></use>
                 </svg> Daftar Pesanan</a>
-            </li> --}}
+            </li>
 
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link {{ request()->is('activity_history') ? 'active' : '' }}" href="activity_history">
                         <svg class="nav-icon">
                             <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-bell"></use>
                         </svg>History Aktivitas</a>
-                    </li> --}}
+                    </li>
 
-                    {{-- <li class="nav-item">
-                        <a class="nav-link {{ request()->is('chats') ? 'active' : '' }}" href="chats">
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('message') ? 'active' : '' }}" href="message">
                             <svg class="nav-icon">
                             <use xlink:href="assets/@coreui/icons/sprites/free.svg#cil-calculator"></use>
                         </svg> Chats<span class="badge badge-sm bg-info ms-auto">NEW</span></a>
-                    </li> --}}
+                    </li>
 
                 </ul>
   </div>

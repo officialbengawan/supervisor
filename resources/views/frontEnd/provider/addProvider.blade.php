@@ -1,11 +1,4 @@
-@extends('frontEnd.layouts.main')
-
-@section('container')
-<div class="body flex-grow-1 px-3">
-    <div class="container-lg">
-        <div class="row justify-content-center">
-        <div class="col col-lg col-sm">
-            <table id="example" class="table table-striped" style="width:100%">
+<table id="example" class="table table-striped" style="width:100%">
                 <!-- Example single danger button -->
               <div class="row justify-content-center mb-3">
                   <div class="col col-lg col-sm">
@@ -89,9 +82,3 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
-      </div>
-      <!-- /.row-->
-    </div>
-  </div>
-@endsection

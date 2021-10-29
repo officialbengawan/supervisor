@@ -45,7 +45,7 @@ class pengawasController extends Controller
     public function provider()
     {
         $data['title'] = 'Penyedia';
-        return view('frontEnd.penyedia', $data);
+        return view('frontEnd.provider', $data);
     }
 
     public function product()
